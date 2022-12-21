@@ -1,0 +1,12 @@
+<header>
+	<link rel="stylesheet" type="text/css" href="/css/header.css" />
+	<div class="header">
+		<ul>
+			{{ range .Site.Params.headers }}
+			<li>
+				<a>{{ .name }}</a>
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+</header>

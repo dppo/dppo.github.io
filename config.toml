@@ -1,0 +1,11 @@
+baseURL = "http://dppo.cn/"
+languageCode = "en-us"
+title = "Dppo的个人博客"
+
+theme = "banana"
+publishDir = "docs"
+
+[params]
+    author = "Dppo"
+    case = "2021"
+    headers = [ { name = "首页"}, { name = "分类"}, { name = "关于"} ]

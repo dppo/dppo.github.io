@@ -1,0 +1,14 @@
+{{- define "main" -}}
+<link rel="stylesheet" type="text/css" href="/css/main.css" />
+<div class="main">
+	<ul>
+		{{ range .Site.RegularPages }}
+		<li>
+			<a href="{{.Permalink}}"
+				>{{.Date.Format "2006-01-02"}} | {{.Title}}</a
+			>
+		</li>
+		{{ end }}
+	</ul>
+</div>
+{{- end -}}

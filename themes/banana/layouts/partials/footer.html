@@ -1,0 +1,10 @@
+<footer>
+	<link rel="stylesheet" type="text/css" href="/css/footer.css" />
+	<div class="footer">
+		&copy; {{ if (and .Site.Params.since (lt .Site.Params.since now.Year))
+		}}{{ .Site.Params.since }} - {{ end -}} {{ now.Year }} {{ with
+		.Site.Params.author }}{{ . }}{{ end }}
+		<span class="dot">·</span>
+		Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
+	</div>
+</footer>

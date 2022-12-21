@@ -1,0 +1,11 @@
+.header {
+	background-color: #f8f8f8;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+}
+
+.header ul li {
+	display: inline;
+	padding: 1rem;
+}
