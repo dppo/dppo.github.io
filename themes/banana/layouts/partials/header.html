@@ -2,9 +2,9 @@
 	<link rel="stylesheet" type="text/css" href="/css/header.css" />
 	<div class="header">
 		<ul>
-			{{ range .Site.Params.headers }}
+			{{ range .Site.Menus.main }}
 			<li>
-				<a>{{ .name }}</a>
+				<a href="{{ .URL | absLangURL | safeURL }}">{{ .Name }}</a>
 			</li>
 			{{ end }}
 		</ul>

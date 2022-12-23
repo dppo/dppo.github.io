@@ -6,6 +6,22 @@ theme = "banana"
 publishDir = "docs"
 
 [params]
-    author = "Dppo"
-    case = "2021"
-    headers = [ { name = "首页"}, { name = "分类"}, { name = "关于"} ]
+  author = "Dppo"
+  case = "2021"
+
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  pageref = "/"
+[[menu.main]]
+  name = "Article"
+  weight = 20
+  pageref = "/categories/"
+[[menu.main]]
+  name = "Github"
+  weight = 30
+  pageref = "https://github.com/dppo"
+[[menu.main]]
+  name = "About"
+  weight = 40
+  pageref = "/about"

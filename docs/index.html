@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html><head>
 	<meta name="generator" content="Hugo 0.105.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="/css/base.css" />
 </head>
-<body><header>
-	<link rel="stylesheet" type="text/css" href="/css/header.css" />
-	<div class="header">
-		<ul>
-			
-			<li>
-				<a>首页</a>
-			</li>
-			
-			<li>
-				<a>分类</a>
-			</li>
-			
-			<li>
-				<a>关于</a>
-			</li>
-			
-		</ul>
-	</div>
-</header>
-<div id="content"><link rel="stylesheet" type="text/css" href="/css/main.css" />
-<div class="main">
-	<ul>
-		
-		<li>
-			<a href="http://dppo.cn/posts/hello_world/"
-				>2022-12-20 | Hello_world</a
-			>
-		</li>
-		
-	</ul>
-</div>
-        </div><footer>
-	<link rel="stylesheet" type="text/css" href="/css/footer.css" />
-	<div class="footer">
-		&copy; 2022 Dppo
-		<span class="dot">·</span>
-		Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
-	</div>
-</footer>
-</body>
+<link rel="stylesheet" type="text/css" href="/css/main.css" />
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<body background="/assets/main_bg.jpg">
+		<div class="content">
+			<div class="container">
+				<div class="typing">
+					<div id="typed-strings">
+						<p class="typing">Dppo</p>
+					</div>
+					<span id="typed"></span>
+				</div>
+				<ul>
+					
+					<li>
+						<a href="http://dppo.cn/">
+							Home
+						</a>
+					</li>
+					
+					<li>
+						<a href="http://dppo.cn/categories/">
+							Article
+						</a>
+					</li>
+					
+					<li>
+						<a href="http://dppo.cn/">
+							Github
+						</a>
+					</li>
+					
+					<li>
+						<a href="http://dppo.cn/">
+							About
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script>
+		var typed = new Typed("#typed", {
+			stringsElement: "#typed-strings",
+			typeSpeed: 150,
+			loop: true,
+			backDelay: 5000,
+		});
+	</script>
 </html>

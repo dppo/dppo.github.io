@@ -1,4 +1,49 @@
-.main ul li {
-	display: inline;
-	padding: 1rem;
+body {
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overscroll-behavior: none;
+}
+
+.content {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-bottom: 1.125rem;
+	padding-left: 2rem;
+}
+
+.container ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.container li {
+	margin-bottom: 0.875rem;
+}
+
+.container a {
+	text-decoration: none;
+	color: #ffffffe6;
+	font-size: 0.9rem;
+}
+
+.typing {
+	display: flex;
+	flex-direction: row;
+	font-size: 1.875rem;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
 }
