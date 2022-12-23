@@ -21,13 +21,22 @@
 					</li>
 					{{ end }}
 				</ul>
+				<ul class="icon_container">
+					{{ range .Site.Params.icons }}
+					<li>
+						<a href="{{ .url }}">
+							<img src="{{ .icon }}" />
+						</a>
+					</li>
+					{{ end }}
+				</ul>
 			</div>
 		</div>
 	</body>
 	<script>
 		var typed = new Typed("#typed", {
 			stringsElement: "#typed-strings",
-			typeSpeed: 150,
+			typeSpeed: 120,
 			loop: true,
 			backDelay: 5000,
 		});

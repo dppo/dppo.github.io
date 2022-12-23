@@ -1,4 +1,4 @@
-baseURL = "http://dppo.cn/"
+baseURL = "https://dppo.cn/"
 languageCode = "en-us"
 title = "Dppo的个人博客"
 
@@ -8,20 +8,29 @@ publishDir = "docs"
 [params]
   author = "Dppo"
   case = "2021"
+  [[params.icons]]
+    name = "Github"
+    icon = "/assets/github.png"
+    url = "https://github.com/dppo"
+  [[params.icons]]
+    name = "Email"
+    icon = "/assets/email.png"
+    url = "mailto:xiaogao233@163.com"
+  [[params.icons]]
+    name = "ZhiHu"
+    icon = "/assets/zhihu.png"
+    url = "https://www.zhihu.com/people/dppo.cn"
 
-[[menu.main]]
-  name = "Home"
-  weight = 10
-  pageref = "/"
-[[menu.main]]
-  name = "Article"
-  weight = 20
-  pageref = "/categories/"
-[[menu.main]]
-  name = "Github"
-  weight = 30
-  pageref = "https://github.com/dppo"
-[[menu.main]]
-  name = "About"
-  weight = 40
-  pageref = "/about"
+[menu]
+  [[menu.main]]
+    name = "主页"
+    weight = 10
+    url = "/"
+  [[menu.main]]
+    name = "文章"
+    weight = 20
+    url = "/categories"
+  [[menu.main]]
+    name = "关于"
+    weight = 30
+    url = "/about"

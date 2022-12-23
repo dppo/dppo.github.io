@@ -1,5 +1,9 @@
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>
+		{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{
+		.Site.Title }}{{ end }}
+	</title>
+	<meta name="viewport" content="width=device-width,minimum-scale=1" />
 	<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="/css/base.css" />
 </head>

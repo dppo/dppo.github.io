@@ -40,6 +40,17 @@ body {
 	font-size: 0.9rem;
 }
 
+.icon_container li {
+	display: inline;
+}
+
+.icon_container img {
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-right: 0.25rem;
+	filter: brightness(0) invert(1);
+}
+
 .typing {
 	display: flex;
 	flex-direction: row;
