@@ -7,6 +7,7 @@ publishDir = "docs"
 
 [params]
   author = "Dppo"
+  bio = "高昇"
   case = "2021"
   [[params.icons]]
     name = "Github"
@@ -20,6 +21,10 @@ publishDir = "docs"
     name = "ZhiHu"
     icon = "/assets/zhihu.png"
     url = "https://www.zhihu.com/people/dppo.cn"
+  [[params.icons]]
+    name = "Twitter"
+    icon = "/assets/twitter.png"
+    url = "https://twitter.com/xiaogao233"
 
 [menu]
   [[menu.main]]
