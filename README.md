@@ -1,1 +1,1 @@
-### 这是用react写的个人博客项目，通过github-actions自动生成并发布到github上
+### 这是用 Next.js 搭建的个人博客项目，通过 github-actions 自动生成并发布到 github 上
